@@ -1,16 +1,29 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom right, #282c34, #61dafb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .App {
   text-align: center;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .App-logo {
+  animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -26,6 +39,56 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.btn-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  justify-content: space-between;
+}
+
+.numbers{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.numbers {
+  flex-wrap: wrap;
+}
+
+.number-row, .method-row {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+button {
+  background: #61dafb;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex: 1; /* Ensure buttons take up equal space */
+}
+
+button:hover {
+  background: #21a1f1;
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 2em;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: right;
 }
 
 @keyframes App-logo-spin {
