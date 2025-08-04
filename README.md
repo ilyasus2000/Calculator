@@ -23,6 +23,7 @@ A simple, functional calculator built with **vanilla JavaScript**, **HTML**, and
 
 Open the index.html file in your browser — no build step required.
 Edit script.js or style.css for customization.
+
 📁 Project Structure
 
 Calculator/
@@ -31,12 +32,14 @@ Calculator/
 ├── style.css       → UI styling
 ├── script.js       → Calculator logic
 └── README.md       → This documentation
+
 ✅ Usage
 
 Click buttons or use your keyboard to input numbers and operations.
 Press = or Enter to get the result.
 Press ← or Backspace to delete the last character.
 A history of your calculations will appear below the display.
+
 🧪 Example
 
 Input: 5 + 3 =
@@ -52,6 +55,7 @@ Calculations are handled via eval() or basic JS logic.
 Handles common errors (e.g., division by zero, invalid input).
 Built with pure JavaScript, no libraries or frameworks.
 Responsive layout for both desktop and mobile devices.
+
 🚧 Potential Improvements
 
 Add scientific functions (square root, exponentiation, sin/cos/tan)
@@ -59,6 +63,7 @@ Implement a parser instead of using eval()
 Persist history using localStorage
 Theme support (dark mode, animations)
 Accessibility improvements (ARIA, focus states)
+
 📜 License
 
 This project is licensed under the MIT License.
