@@ -56,6 +56,8 @@ Handles common errors (e.g., division by zero, invalid input).
 Built with pure JavaScript, no libraries or frameworks.
 Responsive layout for both desktop and mobile devices.
 
+<img width="645" height="580" alt="Снимок экрана 2025-08-04 в 15 26 23" src="https://github.com/user-attachments/assets/dab31796-392a-4282-a747-0ccaf9919eb8" />
+
 🚧 Potential Improvements
 
 Add scientific functions (square root, exponentiation, sin/cos/tan)
