@@ -24,15 +24,6 @@ A simple, functional calculator built with **vanilla JavaScript**, **HTML**, and
 Open the index.html file in your browser — no build step required.
 Edit script.js or style.css for customization.
 
-📁 Project Structure
-
-Calculator/
-│
-├── index.html      → Main HTML file
-├── style.css       → UI styling
-├── script.js       → Calculator logic
-└── README.md       → This documentation
-
 ✅ Usage
 
 Click buttons or use your keyboard to input numbers and operations.
@@ -65,11 +56,6 @@ Implement a parser instead of using eval()
 Persist history using localStorage
 Theme support (dark mode, animations)
 Accessibility improvements (ARIA, focus states)
-
-📜 License
-
-This project is licensed under the MIT License.
-Feel free to use, modify, and distribute it.
 
 🙋 Feedback & Contributions
 
